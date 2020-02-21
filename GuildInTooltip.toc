@@ -1,0 +1,17 @@
+## Interface: 11303
+## Title: GuildInTooltip
+## Author: millanzarreta
+## Version: 1.0.0
+## Notes: Add the guild name to the tooltip so that it is displayed in a similar way as it does in retail
+## Notes-esES: Añade el nombre de hermandad al tooltip para que se muestre de manera similar a como lo hace en retail
+## X-Category: Tooltip, Guild
+## X-Website: https://www.curseforge.com/wow/addons/GuildInTooltip
+## X-License: GNU General Public License version 3 (GPLv3)
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## X-Curse-Packaged-Version: 1.0.0
+## X-Curse-Project-Name: GuildInTooltip
+## X-Curse-Project-ID: GuildInTooltip
+## X-Curse-Repository-ID: GuildInTooltip-mainline
+
+GuildInTooltip.lua
