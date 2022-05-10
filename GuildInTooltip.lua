@@ -1,8 +1,8 @@
 -- ------------------------------------------------------------ --
 -- Addon: GuildInTooltip                                        --
 --                                                              --
--- Version: 1.0.5                                               --
--- WoW Game Version: 1.14.1                                     --
+-- Version: 1.0.6                                               --
+-- WoW Game Version: 1.14.3                                     --
 -- Author: Millán - Sanguino                                    --
 --                                                              --
 -- License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007 --
@@ -10,7 +10,7 @@
 
 local _G = _G
 local _
-local VERSION = "1.0.5"
+local VERSION = "1.0.6"
 
 if (not CLASSICADDGUILDTOOLTIP_HOOKED) then
 	-- Hook to add guild in tooltip when mouseover a unit frame
