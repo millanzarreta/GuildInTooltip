@@ -1,8 +1,8 @@
 -- ------------------------------------------------------------ --
 -- Addon: GuildInTooltip                                        --
 --                                                              --
--- Version: 1.0.14                                              --
--- WoW Game Version: 1.15.7                                     --
+-- Version: 1.0.15                                              --
+-- WoW Game Version: 1.15.8                                     --
 -- Author: Millán - Sanguino                                    --
 --                                                              --
 -- License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007 --
@@ -10,7 +10,7 @@
 
 local _G = _G
 local _
-local VERSION = "1.0.14"
+local VERSION = "1.0.15"
 
 if (not CLASSICADDGUILDTOOLTIP_HOOKED) then
 	-- Hook to add guild in tooltip when mouseover a unit frame
@@ -64,7 +64,7 @@ if (not CLASSICADDGUILDTOOLTIP_HOOKED) then
 			end
 		end
 	end)
-	
+
 	-- Hook to delete the tooltip changes when the tooltip hides
 	GameTooltip:HookScript("OnHide", function(self)
 		if (GameTooltipTextLeft2 ~= nil) then
@@ -89,6 +89,6 @@ if (not CLASSICADDGUILDTOOLTIP_HOOKED) then
 			GameTooltipTextLeft8:SetText("")
 		end
 	end)
-	
+
 	CLASSICADDGUILDTOOLTIP_HOOKED = true
 end
